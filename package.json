@@ -1,0 +1,33 @@
+{
+  "name": "banner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject": "^4.3.2",
+    "gulp-inject-css": "^1.0.0",
+    "gulp-inline-fonts": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.73",
+    "browser-sync": "^2.18.8",
+    "d3": "^5.5.0",
+    "gulp": "^3.9.1",
+    "gulp-async-tasks": "^1.0.0",
+    "gulp-browser": "^3.0.4",
+    "gulp-clean": "^0.4.0",
+    "gulp-data": "^1.2.1",
+    "gulp-minifier": "^0.2.2",
+    "gulp-nunjucks": "^3.0.0",
+    "gulp-promisify": "^1.2.2",
+    "gulp-stylus": "^2.6.0",
+    "gulp-watch": "^4.3.11",
+    "gulp-zip": "^4.1.0",
+    "merge-stream": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

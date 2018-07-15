@@ -1,0 +1,88 @@
+@import 'normalize.styl';
+
+body {
+  background-color: rgba(230, 230, 230, 1);
+}
+
+.ar-graph {
+
+  height: 100%;
+  width: 100%;
+
+  max-width: calc(100vw - 100px);
+  max-height: calc(100vh - 100px);
+
+  box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 1);
+
+  overflow: visible;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  background-color: white;
+
+  transform: translateX(-50%) translateY(-50%);
+
+
+  &>svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+.ar-line {
+  stroke-width: 1px;
+  opacity: .25;
+  //stroke-linecap: round;
+
+  &._forward {
+    stroke: green;
+  }
+
+  &._reverse {
+    stroke: red;
+  }
+}
+
+.ar-circle {
+  r: 2px;
+
+  &._forward {
+    fill: green;
+  }
+
+  &._reverse {
+    fill: red;
+  }
+
+}
+
+.axis-x {
+  //opacity: .5;
+
+  line {
+    stroke: rgba(80, 80, 80, .2);
+  }
+
+  text {
+    fill: rgba(80, 80, 80, .5);
+  }
+}
+
+.axis-y, .axis-y2 {
+
+  line {
+    stroke: rgba(80, 80, 80, .2);
+  }
+
+  text {
+    fill: rgba(80, 80, 80, .5);
+  }
+
+
+  .domain {
+    opacity: .5;
+  }
+}
